@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
-/* Adiciona a fonte Pixelify Sans */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Adiciona a fonte Ubuntu Mono */
 
 body {
   background-color: #0D0D0D;
   color: #79FFA0;
   /* Cor do texto */
-  font-family: 'Pixelify Sans', sans-serif;
-  /* Fonte Pixelify Sans */
+  font-family: 'Ubuntu Mono', sans-serif;
+  /* Fonte */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,9 +44,11 @@ header .photo {
 }
 
 header .photo img {
-  width: 225px;
+  width: 180px;
   height: auto;
   border: none;
+  margin-bottom: -60px;
+  margin-right: -px;
   /* Remove qualquer borda */
 }
 
@@ -85,6 +87,7 @@ main p, main ul {
   padding: 0;
   list-style-type: none;
   font-size: 18px;
+  line-height: 1.3;
 }
 
 main ul li {
@@ -104,7 +107,7 @@ main ul li {
   color: #9D3BE1;
   /* Cor do texto dos links */
   text-decoration: none;
-  margin: 0 15px;
+  margin: 10px 15px;
   /* Espaçamento horizontal entre links */
 }
 
@@ -129,6 +132,7 @@ main ul li {
   /* Cor de fundo dos botões */
   color: #0D0D0D;
   text-decoration: none;
+  text-align: center;
   padding: 15px 25px;
   /* Aumenta o padding dos botões */
   border-radius: 5px;
